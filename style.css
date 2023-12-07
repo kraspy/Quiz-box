@@ -23,11 +23,13 @@
 #body {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: normal;
-  background-color: var(--main-bg-color);
   color: var(--main-font-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background: top center no-repeat url(images/background-1.png),
+    bottom center no-repeat url(images/background-2.png);
+  background-color: var(--main-bg-color);
 }
 a {
   color: inherit;
@@ -130,15 +132,29 @@ a {
 .schedule__text:hover + .schedule__info {
   display: block;
 }
+.schedule__info:hover {
+  display: block;
+}
 .schedule__info {
   display: none;
   position: absolute;
-  bottom: -80px;
+  bottom: -90px;
   right: 0;
   padding: 20px;
   border-radius: 5px;
   background-color: var(--schedule-info-bg-color);
   color: var(--schedule-info-text-color);
+}
+.schedule__info::before {
+  position: absolute;
+  top: -25px;
+  right: 35px;
+  z-index: -1;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid var(--schedule-info-bg-color);
 }
 .schedule__lunch,
 .schedule__worktime {
@@ -147,6 +163,7 @@ a {
 }
 .schedule__worktime {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 .schedule__lunch {
   font-weight: 600;
@@ -249,16 +266,23 @@ a {
   justify-content: space-between;
 }
 .past-card {
+  position: relative;
   width: 557px;
   height: 394px;
-  background-image: url(images/content/last-1.jpg);
 }
 .past-card__container {
+  box-sizing: border-box;
   box-sizing: border-box;
   height: 100%;
   padding: 30px;
   display: flex;
   align-items: end;
+}
+.past-card__image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 .past-card__content {
   width: 477px;
