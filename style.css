@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
-
 :root {
   --main-bg-color: #17191c;
   --main-font-color: #ffffff;
@@ -13,20 +12,19 @@
   --btn-bg-gray: #8e8e8e;
   --btn-hover-bg-gray: #2b2b2b;
   --white-color: #ffffff;
+  --black-color: #000000;
+  --gray: #303030;
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 #body {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
 }
-
 .btn {
   padding: 18px 40px;
   font-size: 14px;
@@ -36,67 +34,56 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
 .btn-primary {
   background-color: var(--btn-bg-purple);
   color: var(--white-color);
 }
-
 .btn-primary:hover {
   background-color: var(--btn-hover-bg-purple);
 }
-
 .btn-secondary {
   background-color: transparent;
   border-color: var(--btn-bg-purple);
   color: var(--btn-bg-purple);
 }
-
 .btn-white {
+  background-color: transparent;
+  border-color: var(--white-color);
+  color: var(--white-color);
 }
-
 .container {
   width: 1140px;
   margin: 0 auto;
 }
-
 .main-header {
   position: relative;
   padding: 34px 0;
   margin-bottom: 120px;
 }
-
 .logo {
   display: inline-block;
 }
-
 .logo__image {
   vertical-align: middle;
 }
-
 .menu {
   display: inline-block;
   margin-left: 207px;
 }
-
 .menu__items {
   list-style-type: none;
 }
-
 .menu__item {
   display: inline-block;
   margin: 0 35px;
 }
-
 .menu__link {
   color: var(--main-font-color);
   text-decoration: none;
 }
-
 .menu__link:hover {
   color: var(--accent-color);
 }
-
 .contacts {
   font-style: normal;
   position: absolute;
@@ -104,31 +91,25 @@
   right: 0;
   text-align: right;
 }
-
 .contacts__phone {
 }
-
 .contacts__link {
   color: var(--main-font-color);
   text-decoration: none;
   font-size: 26px;
 }
-
 .schedule__text {
   font-size: 13px;
   color: var(--schedule-text-color);
   text-decoration: underline;
 }
-
 .schedule__text:hover {
   color: var(--main-font-color);
   cursor: pointer;
 }
-
 .schedule__text:hover + .schedule__info {
   display: block;
 }
-
 .schedule__info {
   display: none;
   position: absolute;
@@ -136,28 +117,23 @@
   right: 0;
   padding: 20px;
   border-radius: 5px;
-
   background-color: var(--schedule-info-bg-color);
   color: var(--schedule-info-text-color);
 }
-
 .schedule__lunch,
 .schedule__worktime {
   text-align: center;
   font-size: 13px;
 }
-
 .schedule__worktime {
   font-weight: bold;
 }
 .schedule__lunch {
   font-weight: 600;
 }
-
 .main .common {
   margin-bottom: 193px;
 }
-
 .main .common__header {
   width: 55%;
   margin-bottom: 21px;
@@ -165,33 +141,211 @@
   line-height: 1.1;
   font-weight: bold;
 }
-
 .main .common__text {
   font-size: 21px;
   margin-bottom: 76px;
 }
-
 .section-header {
   margin-bottom: 51px;
 }
-
 .section-header__title,
 .section-header__image {
   display: inline-block;
   vertical-align: middle;
 }
-
 .section-header__title {
   font-size: 36px;
   font-weight: bold;
 }
-
-.new .section-header__image {
+.section-header__image {
   margin-left: 9px;
   width: 42px;
   height: 42px;
 }
-
+.new {
+  margin-bottom: 127px;
+}
+.new__cards {
+  list-style-type: none;
+}
+.announce-card {
+  display: inline-block;
+  width: 362px;
+  height: 449px;
+}
+.announce-card:not(:last-child) {
+  margin-right: 20px;
+}
+.announce-card__container {
+}
+.announce-card__image {
+  width: 362px;
+  height: 144px;
+  width: 100%;
+}
+.announce-card__img {
+  width: 362px;
+  height: 144px;
+}
+.announce-card__content {
+  padding: 33px 22px 26px;
+  background: var(--white-color);
+  color: var(--gray);
+}
+.announce-card__header {
+  margin-bottom: 21px;
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: bold;
+}
+.announce-card__options {
+  margin-bottom: 24px;
+}
+.announce-card__info {
+  display: inline-block;
+  width: 150px;
+}
+.announce-card__icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.announce-card__secondary {
+  vertical-align: middle;
+  font-size: 16px;
+}
+.announce-card__description {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.last {
+  margin-bottom: 124px;
+}
+.card__list {
+  list-style-type: none;
+  margin-bottom: 53px;
+}
+.past-card {
+  display: inline-block;
+  width: 557px;
+  height: 394px;
+  background-image: url(images/content/last-1.jpg);
+  position: relative;
+}
+.past-card:not(:last-child) {
+  margin-right: 20px;
+}
+.past-card__container {
+  position: relative;
+  height: 100%;
+}
+.past-card__content {
+  width: 477px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.past-card__date {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.past-card__header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.past-card__description {
+  font-size: 16px;
+}
+.pagination {
+  width: 375px;
+  margin: 0 auto;
+}
+.pagination__text {
+  display: inline-block;
+  font-weight: 16px;
+}
+.pagination__list {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 0;
+}
+.pagination__item {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.pagination__item:hover {
+  background-color: var(--accent-color);
+}
+.pagination__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--main-font-color);
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 32px;
+}
+.about {
+  position: relative;
+  height: 552px;
+  margin-bottom: 53px;
+  background-image: url(images/content/about.jpg);
+  background-repeat: no-repeat;
+  background-size: 489px 505px;
+}
+.about__block {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 785px;
+  padding: 70px;
+  background-image: linear-gradient(45deg, #8f00ff, #148cff);
+}
+.about__header {
+  margin-bottom: 37px;
+}
+.about__text {
+  margin-bottom: 43px;
+}
 .main-footer {
   position: relative;
+  height: 150px;
+}
+.logo {
+}
+.logo__image {
+}
+.menu {
+}
+.menu__items {
+}
+.menu__item {
+}
+.menu__link {
+}
+.social {
+}
+.social__items {
+  list-style-type: none;
+}
+.social__item {
+  display: inline-block;
+}
+.social__link {
+}
+.contacts {
+}
+.contacts__description {
+}
+.contacts__phone {
+}
+.contacts__link {
 }
