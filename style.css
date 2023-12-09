@@ -242,6 +242,7 @@ a {
 }
 .announce-card__info {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 .announce-card__icon {
