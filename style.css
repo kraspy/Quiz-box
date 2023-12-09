@@ -211,6 +211,8 @@ a {
 .announce-card {
   width: 362px;
   height: 449px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .announce-card__image {
   width: 362px;
@@ -245,7 +247,6 @@ a {
 .announce-card__icon {
   width: 24px;
   height: 24px;
-  vertical-align: middle;
 }
 .announce-card__secondary {
   vertical-align: middle;
@@ -269,6 +270,8 @@ a {
   position: relative;
   width: 557px;
   height: 394px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .past-card__container {
   box-sizing: border-box;
