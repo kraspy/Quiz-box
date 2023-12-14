@@ -26,8 +26,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background: top center no-repeat url(images/background-1.png),
-    bottom center no-repeat url(images/background-2.png);
+  background: top center no-repeat url(/images/background-1.png),
+    bottom center no-repeat url(/images/background-2.png);
   background-color: var(--main-bg-color);
 }
 a {
