@@ -1,0 +1,6 @@
+.cards__list {
+  list-style-type: none;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,6 @@
+.main-footer {
+  border-top: 1px solid var(--gray);
+  padding: 47px 0;
+  display: flex;
+  justify-content: space-between;
+}

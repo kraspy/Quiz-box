@@ -1,0 +1,39 @@
+:root {
+  --main-bg-color: #17191c;
+  --main-font-color: #ffffff;
+  --secondary-text-color: #666666;
+  --schedule-text-color: #98a4a8;
+  --schedule-info-text-color: #1e1f20;
+  --schedule-info-bg-color: #cdd1d2;
+  --accent-color: #8f00ff;
+  --btn-bg-purple: #8f00ff;
+  --btn-hover-bg-purple: #741bba;
+  --btn-bg-gray: #8e8e8e;
+  --btn-hover-bg-gray: #2b2b2b;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray: #303030;
+  --footer-contacts-text: #9a9a9a;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: normal;
+  color: var(--main-font-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: top center no-repeat url(images/background-1.png),
+    bottom center no-repeat url(images/background-2.png);
+  background-color: var(--main-bg-color);
+}
+a {
+  color: inherit;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

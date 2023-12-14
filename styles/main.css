@@ -1,0 +1,25 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* Layout */
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+@import url('./layout/btn.css');
+
+/* Blocks */
+@import url('./blocks/main-header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/schedule.css');
+@import url('./blocks/section-header.css');
+@import url('./blocks/common.css');
+@import url('./blocks/new.css');
+@import url('./blocks/announce-card.css');
+@import url('./blocks/last.css');
+@import url('./blocks/cards.css');
+@import url('./blocks/past-card.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/about.css');
+@import url('./blocks/main-footer.css');
+@import url('./blocks/social.css');

@@ -1,0 +1,15 @@
+.common {
+  margin-bottom: 193px;
+}
+.common__header {
+  width: 55%;
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.common__text {
+  font-size: 21px;
+  margin-bottom: 76px;
+  margin-left: 4px;
+}

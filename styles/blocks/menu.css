@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__items {
+  list-style-type: none;
+  display: flex;
+  gap: 65px;
+}
+.menu__item {
+  display: inline-block;
+}
+.menu__link {
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: var(--accent-color);
+}

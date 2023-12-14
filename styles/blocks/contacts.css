@@ -1,0 +1,12 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+.contacts__link {
+  text-decoration: none;
+  font-size: 26px;
+}
+.contacts__description {
+  font-size: 11px;
+  color: var(--footer-contacts-text);
+}

@@ -1,0 +1,8 @@
+.new {
+  margin-bottom: 127px;
+}
+.new__cards {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}

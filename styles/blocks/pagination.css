@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.pagination__text {
+  font-weight: 16px;
+}
+.pagination__list {
+  display: flex;
+  list-style-type: none;
+  font-size: 0;
+  gap: 2px;
+}
+.pagination__item {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.pagination__item:hover {
+  background-color: var(--accent-color);
+}
+.pagination__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 32px;
+}

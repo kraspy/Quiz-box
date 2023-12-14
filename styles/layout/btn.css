@@ -1,0 +1,36 @@
+.btn {
+  padding: 18px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--btn-bg-purple);
+  color: var(--white-color);
+}
+.btn-primary:hover {
+  background-color: var(--btn-hover-bg-purple);
+}
+.btn-secondary {
+  padding: 19px 28px;
+  background-color: transparent;
+  border-color: var(--btn-bg-purple);
+  color: var(--btn-bg-purple);
+}
+.btn-secondary:hover {
+  background-color: var(--btn-bg-purple);
+  color: var(--white-color);
+}
+.btn-white {
+  background-color: transparent;
+  border-color: var(--white-color);
+  color: var(--white-color);
+}
+.btn-white:hover {
+  background-color: var(--white-color);
+  border-color: var(--gray);
+  color: var(--gray);
+}
