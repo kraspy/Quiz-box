@@ -1,0 +1,29 @@
+.breadcrumbs {
+  color: var(--breadcrumbs-text-color);
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+.breadcrumbs__links {
+  list-style-type: none;
+}
+.breadcrumbs__link {
+  display: inline-block;
+}
+.breadcrumbs__link:not(:first-child)::before {
+  content: ' / ';
+}
+.breadcrumbs__link--active {
+}
+
+.breadcrumbs__link a {
+  color: inherit;
+  font-size: 14px;
+}
+
+.breadcrumbs__link a:hover {
+  color: white;
+}
+
+.breadcrumbs__link--active a {
+  font-weight: bold;
+}

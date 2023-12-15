@@ -1,0 +1,9 @@
+.games {
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.games__list {
+  list-style-type: none;
+}

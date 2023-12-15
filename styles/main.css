@@ -12,6 +12,7 @@
 @import url('./blocks/menu.css');
 @import url('./blocks/contacts.css');
 @import url('./blocks/schedule.css');
+@import url('./blocks/breadcrumbs.css');
 @import url('./blocks/section-header.css');
 @import url('./blocks/common.css');
 @import url('./blocks/new.css');
@@ -23,3 +24,6 @@
 @import url('./blocks/about.css');
 @import url('./blocks/main-footer.css');
 @import url('./blocks/social.css');
+@import url('./blocks/games.css');
+@import url('./blocks/game-card.css');
+@import url('./blocks/partners.css');

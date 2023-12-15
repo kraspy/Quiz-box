@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: #17191c;
   --main-font-color: #ffffff;
+  --black-font-color: #000000;
   --secondary-text-color: #666666;
   --schedule-text-color: #98a4a8;
   --schedule-info-text-color: #1e1f20;
@@ -14,6 +15,8 @@
   --black-color: #000000;
   --gray: #303030;
   --footer-contacts-text: #9a9a9a;
+  --partners-bg: #f4f5f5;
+  --breadcrumbs-text-color: #cccccc;
 }
 * {
   margin: 0;
@@ -30,9 +33,16 @@
     bottom center no-repeat url(../../images/background-2.png);
   background-color: var(--main-bg-color);
 }
+
+#body.clear-bg {
+  background-color: var(--white-color);
+  background-image: none;
+}
+
 a {
   color: inherit;
 }
+
 .container {
   width: 1140px;
   margin: 0 auto;

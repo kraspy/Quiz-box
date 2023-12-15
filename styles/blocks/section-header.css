@@ -15,3 +15,7 @@
   width: 42px;
   height: 42px;
 }
+
+.section-header--large .section-header__title {
+  font-size: 48px;
+}

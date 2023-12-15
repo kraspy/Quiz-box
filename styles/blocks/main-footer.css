@@ -4,3 +4,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer--dark-bg {
+  border-top: none;
+  background-color: var(--main-bg-color);
+}

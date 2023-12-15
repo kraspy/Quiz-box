@@ -1,4 +1,5 @@
 .pagination {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,4 +33,12 @@
   width: 100%;
   text-align: center;
   line-height: 32px;
+}
+
+.pagination--black {
+  color: var(--black-font-color);
+}
+
+.pagination--black .pagination__item:hover {
+  color: var(--main-font-color);
 }

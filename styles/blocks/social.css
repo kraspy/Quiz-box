@@ -21,26 +21,26 @@
   font-size: 0;
 }
 .social__link--tg {
-  background-image: url(images/icons/social/t.png);
+  background-image: url(../../images/icons/social/t.png);
 }
 .social__link--vk {
-  background-image: url(images/icons/social/vk.png);
+  background-image: url(../../images/icons/social/vk.png);
 }
 .social__link--fb {
-  background-image: url(images/icons/social/f.png);
+  background-image: url(../../images/icons/social/f.png);
 }
 .social__link--ig {
-  background-image: url(images/icons/social/in.png);
+  background-image: url(../../images/icons/social/in.png);
 }
 .social__link--tg:hover {
-  background-image: url(images/icons/social/t-h.png);
+  background-image: url(../../images/icons/social/t-h.png);
 }
 .social__link--vk:hover {
-  background-image: url(images/icons/social/vk-h.png);
+  background-image: url(../../images/icons/social/vk-h.png);
 }
 .social__link--fb:hover {
-  background-image: url(images/icons/social/f-h.png);
+  background-image: url(../../images/icons/social/f-h.png);
 }
 .social__link--ig:hover {
-  background-image: url(images/icons/social/in-h.png);
+  background-image: url(../../images/icons/social/in-h.png);
 }

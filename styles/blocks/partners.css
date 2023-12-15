@@ -1,0 +1,28 @@
+.partners {
+  padding: 100px 0;
+  background-color: var(--partners-bg);
+  color: black;
+}
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.partners__image {
+  display: flex;
+  flex-basis: 230px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+  filter: grayscale(1);
+}
+
+.partners__image:hover {
+  filter: none;
+}
+
+.partners__img {
+  object-fit: contain;
+}

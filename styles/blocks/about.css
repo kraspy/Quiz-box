@@ -2,7 +2,7 @@
   position: relative;
   height: 552px;
   margin-bottom: 53px;
-  background-image: url(/images/content/about.jpg);
+  background-image: url(../../images/content/about.jpg);
   background-repeat: no-repeat;
   background-size: 489px 505px;
   display: flex;
