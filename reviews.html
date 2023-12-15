@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
 
-  <body id="body">
+  <body id="body" class="clear-bg">
     <div class="wrapper">
-      <div class="container">
-        <header class="main-header">
+      <header class="main-header main-header--dark-bg">
+        <div class="container">
           <div class="main-header__top">
             <div class="logo">
               <a href="/" class="logo__link">
@@ -50,14 +50,268 @@
             </address>
           </div>
           <div class="main__header__bottom">
-            <section class="common">
-              <h1 class="common__header">Reviews</h1>
-              <p class="common__text">123</p>
-            </section>
+            <h1 class="common__header">Отзывы</h1>
           </div>
-        </header>
-        <main class="main"></main>
-        <footer class="main-footer">
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__links">
+              <li class="breadcrumbs__link">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="breadcrumbs__link breadcrumbs__link--active">
+                <a href="games.html">Отзывы</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main class="main bg-white">
+        <section class="reviews">
+          <div class="container">
+            <ul class="reviews__list">
+              <li class="review-card">
+                <div class="review-card__user">
+                  <div class="review-card__avatar">
+                    <img
+                      src="images/users/ivan.jpg"
+                      alt="Иван Петрович"
+                      class="review-card__img"
+                    />
+                  </div>
+                  <div class="review-card__info">
+                    <div class="review-card__name">
+                      <a href="" class="review__card__link">Иван Петрович</a>
+                      <div class="review-card__social">
+                        <img
+                          src="images/icons/social/vk-blue.png"
+                          alt="VK"
+                          class="review-card__img"
+                        />
+                      </div>
+                    </div>
+                    <div class="review-card__additional">
+                      <div class="chips chips--active">90-е</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-card__header">Крутой квиз про 90-е.</div>
+                <p class="review-card__review">
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного
+                  текста рыбы на русском языке, а начинающему оратору отточить
+                  навык публичных выступлений в домашних условиях. При создании
+                  генератора мы использовали небезизвестный универсальный код
+                  речей.
+                </p>
+                <time class="review-card__date">Ноябрь 2019</time>
+              </li>
+              <li class="review-card">
+                <div class="review-card__user">
+                  <div class="review-card__avatar">
+                    <img
+                      src="images/users/kiza.jpg"
+                      alt="Лиза Сидорова"
+                      class="review-card__img"
+                    />
+                  </div>
+                  <div class="review-card__info">
+                    <div class="review-card__name">
+                      <a href="" class="review__card__link">Лиза Сидорова</a>
+                      <div class="review-card__social">
+                        <img
+                          src="images/icons/social/vk-blue.png"
+                          alt="VK"
+                          class="review-card__img"
+                        />
+                      </div>
+                    </div>
+                    <div class="review-card__additional">
+                      <div class="chips chips--active">IT-викторина</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-card__header">
+                  Очень понравилась викторина.
+                </div>
+                <p class="review-card__review">
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного
+                  текста рыбы на русском языке, а начинающему оратору отточить
+                  навык публичных выступлений в домашних условиях. При создании
+                  генератора мы использовали небезизвестный универсальный код
+                  речей. Текст генерируется абзацами случайным образом от двух
+                  до десяти предложений в абзаце, что позволяет сделать текст
+                  более привлекательным и живым для визуально-слухового
+                  восприятия.
+                </p>
+                <time class="review-card__date">Ноябрь 2019</time>
+              </li>
+              <li class="review-card">
+                <div class="review-card__user">
+                  <div class="review-card__avatar">
+                    <img
+                      src="images/users/ekaterina.jpg"
+                      alt="Екатерина Жмых"
+                      class="review-card__img"
+                    />
+                  </div>
+                  <div class="review-card__info">
+                    <div class="review-card__name">
+                      <a href="" class="review__card__link">Екатерина Жмых</a>
+                      <div class="review-card__social">
+                        <img
+                          src="images/icons/social/vk-blue.png"
+                          alt="VK"
+                          class="review-card__img"
+                        />
+                      </div>
+                    </div>
+                    <div class="review-card__additional">
+                      <div class="chips chips--active">Кино и музыка</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-card__header">Интерестный квиз.</div>
+                <p class="review-card__review">
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного
+                  текста рыбы на русском языке, а начинающему оратору отточить
+                  навык публичных выступлений в домашних условиях. При создании
+                  генератора мы использовали небезизвестный универсальный код
+                  речей.
+                </p>
+                <time class="review-card__date">Ноябрь 2019</time>
+              </li>
+              <li class="review-card">
+                <div class="review-card__user">
+                  <div class="review-card__avatar">
+                    <img
+                      src="images/users/anton.jpg"
+                      alt="Антон Игоревич"
+                      class="review-card__img"
+                    />
+                  </div>
+                  <div class="review-card__info">
+                    <div class="review-card__name">
+                      <a href="" class="review__card__link">Антон Игоревич</a>
+                      <div class="review-card__social">
+                        <img
+                          src="images/icons/social/vk-blue.png"
+                          alt="VK"
+                          class="review-card__img"
+                        />
+                      </div>
+                    </div>
+                    <div class="review-card__additional">
+                      <div class="chips chips--active">Гарри Поттер</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-card__header">
+                  Был первый раз, очень круто. Не пожалел, что сходил!
+                </div>
+                <p class="review-card__review">
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного
+                  текста рыбы на русском языке, а начинающему оратору отточить
+                  навык публичных выступлений в домашних условиях. При создании
+                  генератора мы использовали небезизвестный универсальный код
+                  речей.
+                </p>
+                <time class="review-card__date">Ноябрь 2019</time>
+              </li>
+            </ul>
+            <div class="pagination pagination--black">
+              <div class="pagination__text">
+                Страница <span class="pagination__first-page">1</span> из
+                <span class="pagination__last-page">7</span>
+              </div>
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">1</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">2</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">3</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">4</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">5</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">6</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">7</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="banner">
+          <div class="container">
+            <p class="banner__text">Подберём игру для вас!</p>
+            <div class="banner__image">
+              <img
+                src="images/content/select-game.png"
+                alt="Подберем игру для вас!"
+                class="banner__img"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="partners">
+          <div class="container">
+            <div class="section-header section-header--large">
+              <h2 class="section-header__title">Оставьте отзыв</h2>
+            </div>
+            <form action="#" method="post" class="form">
+              <div class="form__row">
+                <input
+                  type="text"
+                  name="user-name"
+                  class="form__input"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  type="text"
+                  name="user-vk"
+                  class="form__input"
+                  placeholder="Ссылка на профиль VK"
+                />
+              </div>
+              <div class="form__row">
+                <textarea
+                  name="user-text"
+                  class="form__input"
+                  placeholder="Напишите свой честный отзыв ;)"
+                ></textarea>
+              </div>
+              <div class="form__row">
+                <p class="form__text">Какими услугами компании пользуетесь?</p>
+                <ul class="chips-list">
+                  <li class="chips">IT-Викторина</li>
+                  <li class="chips">Весенняя игра</li>
+                  <li class="chips chips--active">Кино и музыка</li>
+                  <li class="chips">Гарри Поттер</li>
+                  <li class="chips">Никакими</li>
+                  <li class="chips">Назад в 90-е</li>
+                  <li class="chips">Другое</li>
+                </ul>
+              </div>
+              <div class="form__row form__row--right">
+                <button type="reset" class="btn btn-gray">Очистить</button>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="main-footer main-footer--dark-bg">
+        <div class="container">
           <div class="logo">
             <img
               src="images/logo/Quiz-box.svg"
@@ -102,8 +356,8 @@
               >
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

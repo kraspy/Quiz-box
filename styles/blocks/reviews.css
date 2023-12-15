@@ -1,0 +1,13 @@
+.reviews {
+  margin-top: 100px;
+  color: black;
+  padding-bottom: 80px;
+}
+
+.reviews__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 25px;
+}

@@ -27,3 +27,9 @@
 @import url('./blocks/games.css');
 @import url('./blocks/game-card.css');
 @import url('./blocks/partners.css');
+@import url('./blocks/banner.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/review-card.css');
+@import url('./blocks/form.css');
+@import url('./blocks/chips-list.css');
+@import url('./blocks/chips.css');

@@ -1,0 +1,13 @@
+.chips {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--chips-bg);
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.chips--active,
+.chips:hover {
+  background-color: var(--chips-bg-hover);
+}

@@ -9,14 +9,18 @@
   --accent-color: #8f00ff;
   --btn-bg-purple: #8f00ff;
   --btn-hover-bg-purple: #741bba;
-  --btn-bg-gray: #8e8e8e;
-  --btn-hover-bg-gray: #2b2b2b;
+  --btn-bg-gray: #2b2b2b;
+  --btn-hover-bg-gray: #8e8e8e;
   --white-color: #ffffff;
   --black-color: #000000;
   --gray: #303030;
   --footer-contacts-text: #9a9a9a;
   --partners-bg: #f4f5f5;
   --breadcrumbs-text-color: #cccccc;
+  --chips-bg: #e7e7e7;
+  --chips-bg-hover: #b9eae4;
+  --vk-link-color: #2e77a4;
+  --review-card-bg: #f4f5f5;
 }
 * {
   margin: 0;
@@ -46,4 +50,33 @@ a {
 .container {
   width: 1140px;
   margin: 0 auto;
+}
+
+input[type='text'],
+input[type='url'],
+textarea {
+  height: 65px;
+  padding: 20px 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type='text'],
+input[type='url'],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+textarea {
+  min-height: 235px;
+}
+
+input[type='text']:focus,
+input[type='url']:focus,
+textarea:focus {
+  border: 1px solid var(--accent-color);
+  outline: 0;
 }

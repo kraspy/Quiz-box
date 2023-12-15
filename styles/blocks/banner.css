@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 363px;
+  background-color: var(--main-bg-color);
+}
+
+.banner > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 363px;
+  background-color: var(--main-bg-color);
+}
+
+.banner__text {
+  width: 383px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.banner__image {
+  align-self: flex-end;
+  overflow: hidden;
+}
+
+.banner__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
