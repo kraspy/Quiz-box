@@ -5,7 +5,12 @@
   padding: 25px 0;
 }
 
-.main-header__bottom {
+.main-header__text {
+  width: 55%;
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: bold;
 }
 
 .main-header--dark-bg {
