@@ -1,0 +1,5 @@
+.wrapper-bg {
+  background: top center no-repeat url(../../images/background-1.png),
+    bottom center no-repeat url(../../images/background-2.png);
+  background-color: var(--main-bg-color);
+}

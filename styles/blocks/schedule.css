@@ -31,7 +31,6 @@
   position: absolute;
   top: -25px;
   right: 35px;
-  z-index: -1;
   content: '';
   width: 0px;
   height: 0px;
