@@ -6,6 +6,7 @@
   border: 1px solid transparent;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.4s, color 0.4s, border-color 0.4s;
 }
 .btn-primary {
   background-color: var(--btn-bg-purple);

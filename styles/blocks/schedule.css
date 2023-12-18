@@ -6,37 +6,56 @@
   font-size: 13px;
   color: var(--schedule-text-color);
   text-decoration: underline;
+  position: relative;
+  transition: color 0.4s;
 }
 .schedule__text:hover {
   color: var(--main-font-color);
   cursor: pointer;
 }
 .schedule__text:hover + .schedule__info {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
+
 .schedule__info:hover {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
+
 .schedule__info {
-  display: none;
   position: absolute;
-  bottom: -90px;
+  top: calc(100% + 15px);
   right: 0;
   padding: 20px;
   border-radius: 5px;
   background-color: var(--schedule-info-bg-color);
   color: var(--schedule-info-text-color);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s;
 }
 .schedule__info::before {
   position: absolute;
-  top: -25px;
+  top: -15px;
   right: 35px;
   content: '';
   width: 0px;
   height: 0px;
   border: 15px solid transparent;
   border-bottom: 15px solid var(--schedule-info-bg-color);
+  border-top: 0px;
 }
+.schedule__info::after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  height: 15px;
+}
+
 .schedule__lunch,
 .schedule__worktime {
   text-align: center;

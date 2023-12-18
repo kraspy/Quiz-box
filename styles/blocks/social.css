@@ -19,28 +19,31 @@
   text-align: center;
   line-height: 36px;
   font-size: 0;
+  background-image: url('../../images/icons/social/socials.sprite.png');
+  background-repeat: no-repeat;
 }
 .social__link--tg {
-  background-image: url(../../images/icons/social/t.png);
+  background-position: -5px -210px;
 }
 .social__link--vk {
-  background-image: url(../../images/icons/social/vk.png);
+  background-position: -5px -327px;
 }
 .social__link--fb {
-  background-image: url(../../images/icons/social/f.png);
+  background-position: -5px -46px;
 }
 .social__link--ig {
-  background-image: url(../../images/icons/social/in.png);
+  background-position: -5px -128px;
 }
 .social__link--tg:hover {
-  background-image: url(../../images/icons/social/t-h.png);
+  background-position: -5px -169px;
 }
 .social__link--vk:hover {
-  background-image: url(../../images/icons/social/vk-h.png);
+  background-position: -5px -286px;
 }
 .social__link--fb:hover {
-  background-image: url(../../images/icons/social/f-h.png);
+  background-position: -5px -5px;
 }
 .social__link--ig:hover {
-  background-image: url(../../images/icons/social/in-h.png);
+  background-position: -5px -87px;
+  white-space: now;
 }

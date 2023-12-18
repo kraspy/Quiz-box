@@ -18,6 +18,7 @@
   margin-bottom: 50px;
   cursor: pointer;
   filter: grayscale(1);
+  transition: filter 0.4s;
 }
 
 .partners__image:hover {

@@ -4,3 +4,11 @@
   list-style-type: none;
   gap: 15px;
 }
+
+.chips-list input[type='checkbox'] {
+  display: none;
+}
+
+.chips-list input[type='checkbox']:checked + .chips {
+  background-color: var(--chips-bg-hover);
+}

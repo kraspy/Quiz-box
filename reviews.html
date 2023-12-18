@@ -292,15 +292,22 @@
               </div>
               <div class="form__row">
                 <p class="form__text">Какими услугами компании пользуетесь?</p>
-                <ul class="chips-list">
-                  <li class="chips">IT-Викторина</li>
-                  <li class="chips">Весенняя игра</li>
-                  <li class="chips chips--active">Кино и музыка</li>
-                  <li class="chips">Гарри Поттер</li>
-                  <li class="chips">Никакими</li>
-                  <li class="chips">Назад в 90-е</li>
-                  <li class="chips">Другое</li>
-                </ul>
+                <div class="chips-list">
+                  <input type="checkbox" id="it" />
+                  <label class="chips" for="it">IT-Викторина</label>
+                  <input type="checkbox" id="spring" />
+                  <label class="chips" for="spring">Весенняя игра</label>
+                  <input type="checkbox" id="movies" />
+                  <label class="chips" for="movies">Кино и музыка</label>
+                  <input type="checkbox" id="harry" />
+                  <label class="chips" for="harry">Гарри Поттер</label>
+                  <input type="checkbox" id="nobody" />
+                  <label class="chips" for="nobody">Никакими</label>
+                  <input type="checkbox" id="back" />
+                  <label class="chips" for="back">Назад в 90-е</label>
+                  <input type="checkbox" id="other" />
+                  <label class="chips" for="other">Другое</label>
+                </div>
               </div>
               <div class="form__row form__row--right">
                 <button type="reset" class="btn btn-gray">Очистить</button>
