@@ -1,6 +1,5 @@
 .welcome {
-  background-image: url('../../images/background-1.png');
-  background-color: #000;
+  background: url('../../images/background-1.png') #000 no-repeat center/cover;
 }
 
 .welcome__container {
