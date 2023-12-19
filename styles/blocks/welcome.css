@@ -1,0 +1,21 @@
+.welcome {
+  background-image: url('../../images/background-1.png');
+  background-color: #000;
+}
+
+.welcome__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome__block {
+  opacity: 0;
+  animation: bounce 0.8s ease-in-out forwards;
+  position: relative;
+  width: 308px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

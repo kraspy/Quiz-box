@@ -1,4 +1,5 @@
 .btn {
+  display: inline-block;
   padding: 18px 40px;
   font-size: 14px;
   font-weight: bold;
@@ -8,11 +9,13 @@
   cursor: pointer;
   transition: background-color 0.4s, color 0.4s, border-color 0.4s;
 }
-.btn-primary {
+.btn-primary,
+.btn-link-primary {
   background-color: var(--btn-bg-purple);
   color: var(--white-color);
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-link-primary:hover {
   background-color: var(--btn-hover-bg-purple);
 }
 .btn-secondary {
@@ -44,4 +47,8 @@
   background-color: var(--btn-hover-bg-gray);
   border-color: var(--btn-hover-bg-gray);
   color: var(--gray);
+}
+.btn-link-primary {
+  text-decoration: none;
+  padding: 18px 58px;
 }
