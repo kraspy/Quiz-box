@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 .past-card__container {
-  box-sizing: border-box;
+  position: relative;
   box-sizing: border-box;
   height: 100%;
   padding: 30px;
@@ -15,7 +15,6 @@
 }
 .past-card__image {
   position: absolute;
-  z-index: -1;
   width: 100%;
   height: 100%;
 }
