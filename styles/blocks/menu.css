@@ -10,6 +10,9 @@
 .menu__item {
   display: inline-block;
 }
+.menu__item--active {
+  color: var(--accent-color);
+}
 .menu__link {
   text-decoration: none;
   transition: color 0.4s;

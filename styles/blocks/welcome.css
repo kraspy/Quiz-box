@@ -12,9 +12,12 @@
   animation: bounce 0.8s ease-in-out forwards;
   position: relative;
   width: 308px;
-  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.welcome__block .logo {
+  margin-bottom: 60px;
 }
