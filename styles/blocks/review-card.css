@@ -2,6 +2,7 @@
   background-color: var(--review-card-bg);
   padding: 50px 25px 25px;
   flex-basis: 500px;
+  margin-bottom: 25px;
 }
 .review-card__user {
   display: flex;
@@ -12,8 +13,6 @@
   height: 139px;
   border-radius: 50%;
   overflow: hidden;
-}
-.review-card__img {
 }
 .review-card__info {
   display: flex;

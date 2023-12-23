@@ -6,8 +6,9 @@
 
 .reviews__list {
   list-style-type: none;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: flex-start; */
+  columns: 2;
   gap: 25px;
 }
